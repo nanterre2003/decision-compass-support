@@ -8,17 +8,29 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="page legal">
-      <nav class="topnav">
-        <a href="index.html">Decision Compass</a>
-        <a href="support.html">Support</a>
+    <div class="site-shell">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">DC</span>
+          <span>Decision Compass</span>
+        </a>
+        <div class="nav-links">
+          <a href="support.html">Support</a>
+        </div>
       </nav>
 
-      <section class="hero compact">
-        <p class="seal">Privacy Policy</p>
-        <h1>How Decision Compass handles your data</h1>
-        <p class="lead">Last updated: 30 June 2026</p>
-      </section>
+      <main class="legal">
+        <section class="hero compact">
+          <div class="hero-copy">
+            <p class="seal">Privacy Policy</p>
+            <h1>How Decision Compass handles your data</h1>
+            <p class="lead">Last updated: 30 June 2026</p>
+          </div>
+          <div class="page-emblem" aria-hidden="true">
+            <span>Privacy</span>
+            <strong>Linked Data</strong>
+          </div>
+        </section>
 
       <section class="content">
         <p>
@@ -116,12 +128,14 @@
           We may update this policy when the app changes. The latest version will be posted on this
           page with the updated date.
         </p>
-      </section>
+        </section>
+
+      </main>
 
       <footer>
         <p>Contact: <a href="mailto:info@finnexion.com">info@finnexion.com</a></p>
         <p>Copyright 2026 Finnexion Oy. All rights reserved.</p>
       </footer>
-    </main>
+    </div>
   </body>
 </html>

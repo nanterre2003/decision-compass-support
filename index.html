@@ -8,30 +8,85 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="seal">Decision Compass</p>
-        <h1>Support and Legal</h1>
-        <p class="lead">
-          Official support, privacy, and refund information for the Decision Compass iOS app.
-        </p>
-      </section>
+    <div class="site-shell">
+      <nav class="navbar" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">DC</span>
+          <span>Decision Compass</span>
+        </a>
+        <div class="nav-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </nav>
 
-      <section class="cards" aria-label="Support links">
-        <a class="card" href="privacy.html">
-          <span>Privacy Policy</span>
-          <strong>How your app data is handled</strong>
-        </a>
-        <a class="card" href="support.html">
-          <span>Support</span>
-          <strong>Contact, refunds, and restore purchases</strong>
-        </a>
-      </section>
+      <main>
+        <section class="hero landing-hero">
+          <div class="hero-copy">
+            <p class="seal">Private Decision Ritual</p>
+            <h1>Decision Compass</h1>
+            <p class="lead">
+              Support and legal pages for a personal life-map app built around daily guidance,
+              I Ching-inspired decisions, and quiet self-reflection.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="privacy.html">Privacy Policy</a>
+              <a class="button secondary" href="support.html">Support</a>
+            </div>
+          </div>
+
+          <div class="compass-visual" aria-label="Decorative decision compass">
+            <div class="compass-ring ring-outer"></div>
+            <div class="compass-ring ring-middle"></div>
+            <div class="compass-ring ring-inner"></div>
+            <div class="trigram t1">Qian</div>
+            <div class="trigram t2">Li</div>
+            <div class="trigram t3">Kan</div>
+            <div class="trigram t4">Kun</div>
+            <div class="needle"></div>
+            <div class="coin c1">Yin</div>
+            <div class="coin c2">Yang</div>
+            <div class="coin c3">Qi</div>
+            <div class="compass-core">
+              <span>Gua</span>
+              <strong>39</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="signal-strip" aria-label="Decision Compass principles">
+          <div>
+            <span>Privacy</span>
+            <strong>Profile data is handled with restraint.</strong>
+          </div>
+          <div>
+            <span>Restore</span>
+            <strong>StoreKit purchases can be reconnected.</strong>
+          </div>
+          <div>
+            <span>Limits</span>
+            <strong>Reflection support, not professional advice.</strong>
+          </div>
+        </section>
+
+        <section class="cards" aria-label="Support links">
+          <a class="card" href="privacy.html">
+            <span>Privacy Policy</span>
+            <strong>How your app data is handled</strong>
+            <p>Birth details, optional location, purchases, AI reports, and retention.</p>
+          </a>
+          <a class="card" href="support.html">
+            <span>Support</span>
+            <strong>Contact, refunds, and restore purchases</strong>
+            <p>Help for App Store purchases, reports, restore flow, and app issues.</p>
+          </a>
+        </section>
+      </main>
 
       <footer>
         <p>Contact: <a href="mailto:info@finnexion.com">info@finnexion.com</a></p>
         <p>Copyright 2026 Finnexion Oy. All rights reserved.</p>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
