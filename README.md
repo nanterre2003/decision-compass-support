@@ -1,6 +1,6 @@
-# Decision Compass Support
+# Ming Clarity Support
 
-Public support and legal pages for the Decision Compass iOS app.
+Public support and legal pages for the Ming Clarity iOS app.
 
 - Privacy Policy: `privacy.html`
 - Support: `support.html`
